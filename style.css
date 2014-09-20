@@ -1,0 +1,52 @@
+body, html {
+	width: 100%;
+	height:	100%;
+	margin: 0;
+	background: #fff;
+}
+
+* {
+	outline: 1px solid red;
+}
+
+header {
+	background: #000;
+	height: 60px;
+}
+
+.container {
+	padding: 5% 10%;
+	height: 100%;
+	/*display: inline-flex;	
+	align-items; center (vertical)
+	justify-content: flex-start; /*(horizontal)
+	flex-direction: rows;*/
+}
+
+.box {
+	width: 33.33%;
+	height: 200px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.title {
+	width: 100%;
+	padding: 10px 5px;
+	line-height: 20px;
+	box-sizing: border-box;
+}
+
+.rows {
+	padding: 5px;
+	display: inline-flex;	
+	align-items; center /*(vertical)*/
+	justify-content: flex-start; /*(horizontal)*/
+	flex-direction: rows;
+}
+
+.item {
+	width: 100%;
+	line-height: 20px;
+	text-align: left;
+}
